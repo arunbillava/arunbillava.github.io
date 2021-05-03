@@ -67,3 +67,14 @@ img {
     margin-bottom: 8px;
     font-size: 25px;
 }
+
+@media all and (max-width: 750px) {
+    .info-panel{
+        width: 80% !important;
+        font-size: 35px;
+        height: 500px;
+    }
+    .bio-link {
+        font-size: 30px;
+    }
+  }
